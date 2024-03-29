@@ -1,0 +1,23 @@
+.logo {
+    font-weight: bold;
+    font-size: 25px !important;
+}
+
+.link {
+    font-style: italic; 
+    font-size: 18px !important;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+@media (max-width: 600px) {
+    .link {
+        font-size: 15px !important;
+        -webkit-transition: font-size .5s ease;
+        -moz-transition: font-size .5s ease;
+        -o-transition: font-size .5s ease;
+        transition: font-size .5s ease;
+    }
+}
